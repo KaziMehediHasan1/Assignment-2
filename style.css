@@ -10,7 +10,7 @@ body {
 
 /* Header Part style */
 
-.head-praimary {
+.head-primary {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,39 +96,63 @@ nav a {
 .bg-shadow {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    width: 60%;
-    height: 70px;
-    margin: 0 auto;
+    width:55%;
+    height:70px;
+    margin:80px auto auto;
+    display: flex;
+    justify-content: space-around;
 
 }
 
-.input-items {
-    padding: 15px;
-    margin: 0 auto;
+.input-items1 {
+    margin-right: 10px;
+    margin-top:10px;
     border-radius: 8px;
     background: #FFF;
     border: none;
-    width: 19%;
-    margin-right: 10px;
+    width:20%;
+    height:48px;
+    padding-left:10px;
 }
 
 .input-items2 {
-    padding: 15px;
-    margin: 0 auto;
     border-radius: 8px;
     background: #FFF;
     border: none;
-    width: 19%;
-    margin-right: 10px;
+    width:20%;
+    height:50px;
+    margin-top:8px;
+    padding-left:10px;
+}
+.input-items3 {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width:20%;
+    height:50px;
+    margin-top:10px;
+    padding-left:10px;
 }
 
 .btn-main {
     border-radius: 8px;
     background: #FF5400;
-    padding: 15px;
+    width:20%;
+    height:50px;
+    margin-top:10px;
     border: none;
+    
 }
 
+.btn-main a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+
+.btn-main>img{
+    margin-right:20px;
+}
 
 /* Our Popular Tours part style */
 
@@ -466,10 +490,10 @@ nav a {
 
 .newsletter-head {
     color: #131318;
-    font-size: 50px;
+    font-size:40px;
     font-weight: 800;
     font-family: 'Mulish', sans-serif;
-    text-align: center;
+    margin-left:70px;
 
 }
 
@@ -477,33 +501,42 @@ nav a {
     color: #5A5A5D;
     font-size: 14px;
     font-family: 'Mulish', sans-serif;
-    text-align: center;
-
+    margin-left:70px;
+    padding-right:20px;
+    
 }
 
+.horizontal{
+    width:80%;
+    
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .input-email {
-    width: 300px;
-    max-width: 300px;
+    width: 80%;
     height: 30px;
-    margin-top: 20px;
+    margin: 20px auto;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    border:none;
-    padding:8px;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    padding: 8px;
 }
 
 .input-name {
-    width: 300px;
-    max-width: 300px;
+    width: 80%;
     height: 30px;
-    /* margin-top: 10px; */
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    border:none;
+    font-family: 'Mulish', sans-serif;
+    border: none;
     padding:8px;
-    margin:10px auto auto;
+    margin: 10px auto auto;
 }
 
 .form-img {
@@ -512,3 +545,40 @@ nav a {
     height: 430px;
 
 }
+
+.form-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 80%;
+    padding:12px;
+    border: none;
+    margin:0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+     font-family: 'Mulish', sans-serif;
+    
+}
+
+.form-btn a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* Footer Part Style */
+
+
+#main-foorte-container{
+    background: rgba(19, 19, 24, 0.05);
+    width:100%;
+    margin-top:50px;
+}
+
+.footer-first-part{
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+   
+}
+
