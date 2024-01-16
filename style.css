@@ -1,0 +1,217 @@
+/* * {
+    border: 2px solid red;
+} */
+
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* Header Part style */
+
+.head-praimary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.head-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.travel-color {
+    font-family: 'Mulish', sans-serif;
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.anchor {
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 1.8rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+.home-color {
+    color: #FF5400;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+
+}
+
+
+
+/* Main Part style */
+
+
+
+.first-banner {
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/first-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+
+
+}
+
+.travel-head {
+    font-family: 'Mulish', sans-serif;
+    font-size: 3.5rem;
+    padding-top: 120px;
+    color: white;
+
+
+}
+
+.travel-paragraph {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+
+}
+
+.bg-shadow {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 60%;
+    height: 70px;
+    margin: 0 auto;
+
+}
+
+.input-itmes {
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 19%;
+    margin-right: 10px;
+}
+
+.input-itmes2 {
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 19%;
+    margin-right: 10px;
+}
+
+.btn-main {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px;
+    border: none;
+}
+
+
+/* Our Popular Tours part style */
+
+.popular-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.tour-description>h1 {
+    color: #131318;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.tours-paragraph-style {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+.tour-paragraph1 {
+    margin-top: 30px;
+    padding-right: 70px;
+    line-height: 23px;
+}
+
+.tour-paragraph2 {
+    margin-top: 30px;
+    padding-right: 50px;
+    line-height: 25px;
+}
+
+.tours-list {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+
+.btn-read-more {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 18px;
+    color: white;
+    margin-top: 50px;
+}
+
+.tour-img {
+    margin-top: 100px;
+}
+
+
+/* Choose Destination part style */
+
+.Choose-Destination {
+    margin-top:120px;
+    text-align: center;
+
+}
+
+.Choose-Destination>h1 {
+    font-family: 'Mulish', sans-serif;
+    color: #131318;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.Choose-Destination-paragraph {
+    font-family: 'Mulish', sans-serif;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+    
+}
+
+/* Destination Images part */
+
