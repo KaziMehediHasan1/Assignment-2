@@ -1,27 +1,223 @@
 /* Navigation bar */
 
-@media screen and (max-width:600px){
-    .head-primary{
+@media screen and (max-width:600px) {
+    .head-primary {
         flex-direction: column;
     }
-    
+
+    .head-part {
+        justify-content: center;
+    }
+
     .anchor {
-        text-align: center;
         align-items: center;
-        background-color: beige;
-        padding:10px;
-        border-radius:8px;
+        padding: 10px;
+        border-radius: 8px;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+
+    }
+
+    .anchor a:hover {
+        background-color: chocolate;
+        border-radius: 3px;
+        padding: 5px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    /* main part */
+    .first-banner {
+        width: 335px;
+        height: 483px;
+    }
+
+    .travel-head {
+        font-size: 1.8rem;
+        padding-top: 30px;
+    }
+
+    .travel-paragraph {
+        font-size: 14px;
+    }
+
+    .bg-shadow {
+        width: 90%;
+        height: 266px;
+        margin: 31px auto;
+        flex-direction: column;
+    }
+
+    .input-items1 {
+        margin: 10px auto;
+        width: 80%;
+        height: 50px;
+    }
+
+    .input-items2 {
+        margin: 10px auto;
+        width: 84%;
+        height: 50px;
+    }
+
+    .input-items3 {
+        margin: 10px auto;
+        width: 84%;
+        height: 50px;
+    }
+
+    .btn-main {
+        margin: 10px auto;
+        width: 84%;
+        height: 50px;
+    }
+
+    /* popular-tour */
+
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .tour-img>img {
+        width: 340px;
+        height: 350px;
+
+    }
+
+    .Choose-Destination-paragraph {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .img-section1 {
+        flex-direction: column;
+    }
+
+    .img-section1>img {
+        width: 340px;
+        height: 170px;
+
+    }
+
+    .img-second-section>img {
+        width: 340px;
+        height: 170px;
+        margin-top: 15px;
+    }
+
+    .img-section2 {
+        flex-direction: column;
+    }
+
+    /* .img-section2>img{
+        width:310px;
+        height:170px;
+        margin-top:15px;
+    } */
+    .img-third-section>img {
+        width: 340px;
+        height: 170px;
+        margin-top: px;
+    }
+
+    .img-fourth-section>img {
+        width: 340px;
+        height: 170px;
+        margin-top: 10px;
+    }
+
+    .img-fifth-section>img {
+        width: 340px;
+        height: 170px;
+        margin-top: 10px;
+    }
+
+    .img-section3 {
+        flex-direction: column;
+    }
+
+    .img-sixth-section>img {
+        width: 340px;
+        height: 170px;
+        margin-top: 10px;
+    }
+
+    .img-seventh-section>img {
+        width: 340px;
+        height: 170px;
+        margin-top: 10px;
+    }
+
+    /* Why choose us */
+
+    .why-choose-us>p {
+        font-size: 13;
+        padding: 10px;
+    }
+
+    .why-choose-us-card-container {
+        flex-direction: column;
+
+    }
+
+    .why-choose-us-card1 {
+        width: 300px;
+        height: 285px;
+
+    }
+
+    .why-choose-us-card2 {
+        width: 300px;
+        height: 285px;
+        margin-top: 10px;
+
+    }
+
+    .why-choose-us-card3 {
+        width: 300px;
+        height: 285px;
+        margin-top: 10px;
+
+    }
+
+    /* Perfect place */
+
+    #perfect-place-container {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .perfect-place-child {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    /* .iframe-responsive>iframe{
+        width:300px;
+        height:170px;
+        
+    } */
+
+    #form-main-container{
+        flex-direction: column;
+        margin-top:50px;
+
+    }
+
+    .form-section {
+        width: 335px;
+        height: 353px;
         
     }
 
-    .anchor a:hover{
-        background-color: chocolate;
-        border-radius:3px;
-        padding:5px;
-        color:white;
-        margin-top:20px;
-    }
+
+
+
+
+
+
+
+
 
 }
-
-/*  */
