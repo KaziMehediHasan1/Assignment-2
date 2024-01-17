@@ -206,12 +206,57 @@
     }
 
     .form-section {
-        width: 335px;
-        height: 353px;
+        width: 300px;
+        height:380px;
+        
         
     }
 
+    .newsletter-head{
+        margin-left:37px;
+    }
+    .newsletter-paragraph{
+        font-size:8px;
+        margin-left:37px;
+        
+        /* margin: 10px 270px 0 ; */
+    }
 
+    /* Footer part */
+    .ytp-cued-thumbnail-overlay{
+        width: 300px;
+        height: 285px;
+        margin-top: 10px;
+    }
+
+    .input-email{
+        margin:0 auto;
+    }
+
+    .form-img{
+        width: 300px;
+        height: 285px;
+        margin-top: 10px;
+        
+    }
+
+    .footer-first-part{
+        padding:20px;
+    }
+
+    .travel-color{
+        font-size:30px;
+
+    }
+    .footer-head{
+        padding-left:25px;
+        font-size:30px;
+
+    }
+    .footer-paragraph{
+        font-size:12px;
+        padding:0px;
+    }
 
 
 
