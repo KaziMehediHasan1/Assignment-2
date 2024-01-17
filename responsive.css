@@ -1,0 +1,27 @@
+/* Navigation bar */
+
+@media screen and (max-width:600px){
+    .head-primary{
+        flex-direction: column;
+    }
+    
+    .anchor {
+        text-align: center;
+        align-items: center;
+        background-color: beige;
+        padding:10px;
+        border-radius:8px;
+        
+    }
+
+    .anchor a:hover{
+        background-color: chocolate;
+        border-radius:3px;
+        padding:5px;
+        color:white;
+        margin-top:20px;
+    }
+
+}
+
+/*  */
